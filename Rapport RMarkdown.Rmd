@@ -1,0 +1,103 @@
+---
+title: "Évolution de l'industrie agroalimentaire vers des systèmes de production intelligents."
+author: "Arthur Brayane SIMO"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: '3'
+  html_document:
+    toc: true
+    toc_depth: '3'
+    df_print: paged
+header-includes:
+- \usepackage{fancyhdr}
+- \setlength{\headheight}{90pt}
+- "\\addtolength{\\topmargin}{-50pt}"
+- \pagestyle{fancy}
+- \fancyhead[L]{\includegraphics[width=3cm]{rmarkdown.png}}
+- \fancyhead[R]{}
+bibliography: biblio/biblio2.bib
+csl: "biblio/isara-iso-690.csl"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+```
+
+\newpage
+# Introduction
+L’industrie agroalimentaire a connu une évolution progressive marquée par le passage du travail manuel à la mécanisation, puis à l’automatisation des procédés de production. Aujourd’hui, cette transformation se poursuit avec l’émergence de systèmes de production intelligents intégrant les principes de l’Industrie 4.0, tels que l’intelligence artificielle, l’Internet des objets et l’analyse avancée des données [@hassoun2023food4].
+
+Cette évolution s’explique par des enjeux majeurs auxquels le secteur est confronté, notamment l’augmentation des exigences en matière de qualité et de sécurité alimentaire, la nécessité d’améliorer l’efficacité des processus et la recherche de pratiques plus durables. Les approches traditionnelles de contrôle et de gestion montrent leurs limites face à la complexité croissante des systèmes de production, ce qui pose le problème de l’adaptation des industries agroalimentaires aux nouvelles contraintes économiques et réglementaires [@peres2025foodquality].
+
+Dans ce contexte, l’intégration de technologies intelligentes apparaît comme une réponse stratégique permettant d’optimiser les performances industrielles tout en garantissant la sécurité et la qualité des produits. Ce travail porte ainsi sur l’évolution de l’industrie agroalimentaire vers des systèmes de production intelligents.
+
+\newpage
+# I. L’émergence des systèmes de production intelligents dans l’industrie agroalimentaire
+
+## I.1. Évolution du secteur : de la mécanisation à la digitalisation
+
+L’industrie agroalimentaire a progressivement intégré des technologies numériques afin de moderniser ses procédés et répondre aux exigences croissantes de qualité, de sécurité et de traçabilité. Cette transformation, souvent associée aux concepts d’Industrie 4.0 et au-delà, repose sur l’intégration de systèmes intelligents combinant capteurs, données et capacités d’analyse avancées [@hassoun2023food4].
+
+L’Internet des Objets (IoT) permet aujourd’hui de connecter machines, dispositifs de mesure et systèmes d’information pour collecter des données en temps réel tout au long de la chaîne de production, favorisant ainsi une surveillance plus fine de la qualité et des processus industriels [@yesodha2024iot].
+
+La digitalisation ne se limite plus à l’automatisation mécanique mais vise désormais à créer des systèmes intelligents capables d’analyser, anticiper et optimiser les opérations de production tout en intégrant l’intelligence artificielle (IA) pour la prise de décision autonome [@soori2026ai].
+
+## I.2. Rôle du numérique, des capteurs et de l’intelligence artificielle
+
+Les technologies numériques telles que l’IA, l’IoT et l’analyse de données massives jouent un rôle central dans l’évolution des systèmes de production intelligents en agroalimentaire. L’application de l’IIoT (Industrial Internet of Things) dans l’industrie alimentaire apporte des améliorations significatives en termes de surveillance en temps réel de paramètres critiques de qualité, d’efficacité énergétique et de gestion de la chaîne du froid [@arya2025iiot].
+
+Les capteurs intelligents associés à des algorithmes d’apprentissage automatique permettent de détecter des défauts, prédire des pannes et optimiser les opérations de production. Par exemple, des modèles basés sur la vision par ordinateur et les réseaux neuronaux sont utilisés pour classifier et évaluer la fraîcheur des produits alimentaires sans contact direct [@zhu2021deeplearning].
+
+En outre, l’IA enrichit l’analyse des données collectées, favorisant des prédictions plus fiables et des ajustements automatiques des paramètres de production pour maintenir les standards de qualité et de sécurité [@fazle2025ai].
+
+## I.3. Passage à des systèmes capables d’analyser et d’anticiper
+
+La combinaison du IoT et de l’IA permet d’aller au-delà de la simple collecte de données pour développer des systèmes d’assistance à la décision en temps réel. Ces systèmes exploitent des modèles prédictifs capables d’anticiper des défauts ou des dérives de processus avant qu’ils n’affectent la production, améliorant ainsi l’efficacité globale [@gonzalez2025predictive].
+
+Un autre aspect de cette intelligence industrielle est l’utilisation de jumeaux numériques (*digital twins*) qui reproduisent virtuellement le comportement des lignes de production. Ces jumeaux facilitent la simulation et l’optimisation des opérations, renforçant la résilience et l’adaptabilité des systèmes industriels [@barkaoui2021digital].
+
+---
+
+\newpage
+# II. Les apports et les limites des systèmes de production intelligents
+
+## II.1. Amélioration de la qualité et de la sécurité alimentaire
+
+Les systèmes intelligents permettent d’améliorer sensiblement le contrôle de la qualité et la sécurité alimentaire grâce à une surveillance continue et automatisée. L’intégration de l’IIoT, des capteurs et de l’IA dans les processus de production améliore la détection des défaillances, la traçabilité et la conformité réglementaire, garantissant des produits alimentaires plus sûrs et de meilleure qualité [@arya2025iiot].
+
+L’analyse intelligente des données permet également de détecter des anomalies liées aux paramètres de production qui pourraient mener à des non-conformités, renforçant ainsi la sécurité sanitaire des aliments [@revelou2025mlfoods].
+
+## II.2. Optimisation des performances et réduction du gaspillage
+
+Outre la qualité, les systèmes intelligents contribuent à optimiser l’utilisation des ressources et à réduire le gaspillage. La collecte de données en continu et l’analyse prédictive permettent de mieux ajuster les processus, réduisant ainsi les pertes de matière première et l’énergie consommée [@kumar2025ai].
+
+L’intégration de jumeaux numériques offre une simulation en temps réel des opérations, permettant d’anticiper l’impact des modifications de paramètres industriels et d’améliorer l’efficacité globale des lignes de production [@santos2024digitaltwin].
+
+De plus, des technologies telles que l’IA et l’IoT fournissent des outils puissants pour mieux gérer les chaînes d’approvisionnement, prévoir la demande et réduire les invendus ou les surstocks [@radhakrishnan2025ai].
+
+## II.3. Contraintes actuelles : coûts, données et place de l’humain
+
+Malgré leurs apports, les systèmes intelligents présentent des défis importants pour leur adoption généralisée. Les coûts d’investissement initiaux restent élevés, notamment pour les PME qui manquent de ressources financières et techniques [@bhalerao2022ai].
+
+La gestion et l’intégrité des données constituent un défi majeur, car des flux massifs et hétérogènes exigent des capacités de traitement robustes et des normes de sécurité élevées pour protéger les données sensibles [@atoum2021bigdata].
+
+En outre, l’intégration de technologies avancées modifie les rôles traditionnels du personnel, nécessitant des compétences spécialisées en données et en technologies numériques, ce qui appelle à une requalification des opérateurs et à une réorganisation des fonctions humaines dans l’usine [@arya2025iiot].
+
+---
+
+\newpage
+# Conclusion et perspectives
+
+L’évolution de l’industrie agroalimentaire vers des systèmes de production intelligents est motivée par la nécessité de répondre à des exigences croissantes en matière de qualité, de sécurité et de durabilité. L’intégration de technologies telles que l’IoT, l’IA et les jumeaux numériques permet d’améliorer la surveillance des procédés, d’optimiser les ressources et de réduire le gaspillage tout en renforçant la résilience des chaînes de production [@tzachor2022digitaltwin].
+
+Néanmoins, des obstacles tels que les coûts d’implantation, les défis liés à la gestion des données et l’impact sur l’emploi doivent être abordés pour assurer une adoption plus large de ces technologies  [@leesakul2022workplace; @barkaoui2021barriers]. Les politiques publiques, la formation continue et la collaboration intersectorielle seront essentielles pour faciliter cette transition.
+
+À l’avenir, les recherches devraient se concentrer sur le développement de systèmes intelligents plus accessibles, interopérables et axés sur l’humain, tout en garantissant la sécurité, l’éthique et la durabilité des solutions déployées dans le secteur agroalimentaire.
+
+
+\newpage
+
+## Bibliographie
