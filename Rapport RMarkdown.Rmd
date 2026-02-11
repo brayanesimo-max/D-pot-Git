@@ -95,7 +95,7 @@ L’évolution de l’industrie agroalimentaire vers des systèmes de production
 
 Néanmoins, des obstacles tels que les coûts d’implantation, les défis liés à la gestion des données et l’impact sur l’emploi doivent être abordés pour assurer une adoption plus large de ces technologies  [@leesakul2022workplace; @barkaoui2021barriers]. Les politiques publiques, la formation continue et la collaboration intersectorielle seront essentielles pour faciliter cette transition.
 
-À l’avenir, les recherches devraient se concentrer sur le développement de systèmes intelligents plus accessibles, interopérables et axés sur l’humain, tout en garantissant la sécurité, l’éthique et la durabilité des solutions déployées dans le secteur agroalimentaire.
+À l’avenir, les recherches devraient se concentrer sur le développement de systèmes intelligents plus accessibles, interopérables et axés sur l’humain, tout en garantissant la sécurité, l’éthique et la durabilité des solutions déployées dans le secteur agroalimentaire. 
 
 
 \newpage
